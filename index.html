@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Tarefas</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
 </head>
 <body>
     <div class="todo-container">
         <h1>Minhas Tarefas</h1>
+        
+
         <form id="todo-form">
             <input type="text" id="todo-input" placeholder="Adicione uma nova tarefa" required>
             <button type="submit">Adicionar</button>
@@ -17,8 +23,8 @@
             <ul id="todo-list-new" class="tab"></ul>
             <ul id="todo-list-completed" class="tab" style="display:none;"></ul>
         </div>
-        <button id="show-new">Nova Tarefa</button>
-        <button id="show-completed">Finalizados</button>
+        <button id="clear-all" class="btn btn-danger mt-3">Excluir Todos</button>
+        
     </div>
     
     <script src="script.js"></script>

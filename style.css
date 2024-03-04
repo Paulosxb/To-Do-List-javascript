@@ -52,3 +52,20 @@ ul li.completed {
     text-decoration: line-through;
     color: #777;
 }
+
+/* Estilização dos itens da lista */
+.list-group-item {
+    margin-bottom: 10px !important; /* Adiciona espaço abaixo de cada item */
+    margin-top: 10px  !important;   /* Adiciona espaço acima de cada item */
+}
+
+/* Alternativamente, você pode querer adicionar preenchimento para mais espaço interno */
+.list-group-item {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+/* Estilização específica para o ícone da lixeira para garantir que ele tenha espaço adequado */
+.delete-item {
+    margin-left: 15px !important; /* Adiciona espaço à esquerda do ícone da lixeira */
+}
