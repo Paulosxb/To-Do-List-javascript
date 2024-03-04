@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h1>Minhas Tarefas</h1>
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="Adicione uma nova tarefa" required>
+            <button type="submit">Adicionar</button>
+        </form>
+        <div class="tabs">
+            <ul id="todo-list-new" class="tab"></ul>
+            <ul id="todo-list-completed" class="tab" style="display:none;"></ul>
+        </div>
+        <button id="show-new">Nova Tarefa</button>
+        <button id="show-completed">Finalizados</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
